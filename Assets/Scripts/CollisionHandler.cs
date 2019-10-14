@@ -7,13 +7,13 @@ using UnityEngine.SceneManagement;
 public class CollisionHandler : MonoBehaviour
 {
     [SerializeField] private float levelLoadDelay = 1f;
-    [SerializeField] private GameObject deatFX;
+    [SerializeField] private GameObject deathFX;
 
 
     private void OnTriggerEnter(Collider col)
     {
         DeathSequence();
-        deatFX.SetActive(true);
+        deathFX.SetActive(true);
         Invoke(nameof(ReloadScene), levelLoadDelay);
     }
 
