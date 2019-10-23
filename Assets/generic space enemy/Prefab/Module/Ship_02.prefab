@@ -107,3 +107,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d77405daf71f974a977dce781152068, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deathFX: {fileID: 1966487352797987290, guid: 86f110e7b5d92b944b98db2eb3594f8f, type: 3}
+  scoreHit: 1

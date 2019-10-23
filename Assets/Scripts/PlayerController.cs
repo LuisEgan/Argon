@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     [Tooltip("m/s")] [SerializeField] private float ySpeed = 15f;
     [SerializeField] private float xRange = 8.5f;
     [SerializeField] private float yRange = 3.8f;
+    [SerializeField] private GameObject[] guns;
     
     [Header("Screen position")]
     [SerializeField] private float pitchFactor = -5f;
@@ -31,6 +32,35 @@ public class PlayerController : MonoBehaviour
         {
             MoveShip();
             RotateShip();
+            ProccesFiring();
+        }
+    }
+
+    private void ProccesFiring()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire"))
+        {
+            ActivateGuns();
+        }
+        else
+        {
+            DeactivateGuns();
+        }
+    }
+
+    private void DeactivateGuns()
+    {
+        foreach (GameObject gun in guns)
+        {
+            gun.SetActive(false);
+        }
+    }
+
+    private void ActivateGuns()
+    {
+        foreach (GameObject gun in guns)
+        {
+            gun.SetActive(true);
         }
     }
 
