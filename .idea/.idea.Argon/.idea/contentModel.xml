@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\luisd\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\luisd\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Argon.-1071242161.00" t="ExcludeRecursive" />
-    <e p="D:\Courses_code\Complete C# Unity Developer 3D Learn to Code Making Games\Argon" t="IncludeRecursive">
+    <e p="C:\Users\LuisDaniel\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\LuisDaniel\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Argon.-1081793891.00" t="ExcludeRecursive" />
+    <e p="C:\Users\LuisDaniel\Documents\Courses\Unity Complete etc\Argon" t="IncludeRecursive">
       <e p="Argon.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
